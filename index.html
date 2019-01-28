@@ -1,0 +1,188 @@
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Bootstrap Flex</title>
+  </head>
+  <body>
+      <div class="container mt-3">
+        <h2>Flex</h2>
+        <div class="d-flex p-3 bg-secondary text-white">  
+          <div class="p-2 bg-info">Flex item 1</div>
+          <div class="p-2 bg-warning">Flex item 2</div>
+          <div class="p-2 bg-primary">Flex item 3</div>
+        </div>
+      </div> 
+      <div class="container mt-3">
+      <h2>Inline Flex</h2>
+        <div class="d-inline-flex p-3 bg-secondary text-white">  
+          <div class="p-2 bg-info">Flex item 1</div>
+          <div class="p-2 bg-warning">Flex item 2</div>
+          <div class="p-2 bg-primary">Flex item 3</div>
+        </div>
+      </div>
+      <div class="container mt-3">
+        <h2>Horizontal</h2>
+        <p>From Left</p>
+        <div class="d-flex flex-row bg-secondary mb-3">
+          <div class="p-2 bg-info">Flex item 1</div>
+          <div class="p-2 bg-warning">Flex item 2</div>
+          <div class="p-2 bg-primary">Flex item 3</div>
+        </div>
+        <p>Reverse</p>
+        <div class="d-flex flex-row-reverse bg-secondary">
+          <div class="p-2 bg-info">Flex item 1</div>
+          <div class="p-2 bg-warning">Flex item 2</div>
+          <div class="p-2 bg-primary">Flex item 3</div>
+        </div>
+      </div>
+      <div class="container mt-3">
+        <h2>Vertical Direction</h2>
+        <p>items vertically (on top of each other):</p>
+        <div class="d-flex flex-column mb-3">
+          <div class="p-2 bg-info">Flex item 1</div>
+          <div class="p-2 bg-warning">Flex item 2</div>
+          <div class="p-2 bg-primary">Flex item 3</div>
+        </div>
+        <p>reverse to reverse</p>
+        <div class="d-flex flex-column-reverse">
+          <div class="p-2 bg-info">Flex item 1</div>
+          <div class="p-2 bg-warning">Flex item 2</div>
+          <div class="p-2 bg-primary">Flex item 3</div>
+        </div>
+      </div>
+      <div class="container mt-3">
+        <h2>Justify content</h2>
+        <p>Justify Left</p>
+        <div class="d-flex justify-content-start bg-secondary mb-3">
+          <div class="p-2 bg-info">Flex item 1</div>
+          <div class="p-2 bg-warning">Flex item 2</div>
+          <div class="p-2 bg-primary">Flex item 3</div>
+        </div>
+        <p>Justify Right</p>
+        <div class="d-flex justify-content-end bg-secondary mb-3">
+          <div class="p-2 bg-info">Flex item 1</div>
+          <div class="p-2 bg-warning">Flex item 2</div>
+          <div class="p-2 bg-primary">Flex item 3</div>
+        </div>  
+        <p>Justify Center</p>
+        <div class="d-flex justify-content-center bg-secondary mb-3">
+          <div class="p-2 bg-info">Flex item 1</div>
+          <div class="p-2 bg-warning">Flex item 2</div>
+          <div class="p-2 bg-primary">Flex item 3</div>
+        </div>
+        <p>Justify Between</p>
+        <div class="d-flex justify-content-between bg-secondary mb-3">
+          <div class="p-2 bg-info">Flex item 1</div>
+          <div class="p-2 bg-warning">Flex item 2</div>
+          <div class="p-2 bg-primary">Flex item 3</div>
+        </div>
+        <p>Justify Around</p>
+        <div class="d-flex justify-content-around bg-secondary mb-3">
+          <div class="p-2 bg-info">Flex item 1</div>
+          <div class="p-2 bg-warning">Flex item 2</div>
+          <div class="p-2 bg-primary">Flex item 3</div>
+        </div>
+      </div>
+      <div class="container mt-3">
+        <h2>Fill / Equal Widths</h2>
+        <p>Equal widths:</p>
+        <div class="d-flex mb-3">
+          <div class="p-2 flex-fill bg-info">Flex item 1</div>
+          <div class="p-2 flex-fill bg-warning">Flex item 2</div>
+          <div class="p-2 flex-fill bg-primary">Flex item 3</div>
+        </div>
+        <p> Without .flex-fill</p>
+        <div class="d-flex mb-3 bg-secondary">
+          <div class="p-2 bg-info">Flex item 1</div>
+          <div class="p-2 bg-warning">Flex item 2</div>
+          <div class="p-2 bg-primary">Flex item 3</div>
+        </div>
+      </div>
+      <div class="container mt-3">
+        <h2>Grow</h2>
+        <p>flex-grow-1 on a flex item to take up the rest of the space</p>
+        <div class="d-flex mb-3">
+          <div class="p-2 bg-info">Flex item 1</div>
+          <div class="p-2 bg-warning">Flex item 2</div>
+          <div class="p-2 flex-grow-1 bg-primary">Flex item 3</div>
+        </div>
+        <p>Without .flex-grow-1:</p>
+        <div class="d-flex mb-3 bg-secondary">
+          <div class="p-2 bg-info">Flex item 1</div>
+          <div class="p-2 bg-warning">Flex item 2</div>
+          <div class="p-2 bg-primary">Flex item 3</div>
+        </div>
+      </div>
+      <div class="container mt-3">
+      <h2>Order</h2>
+      <div class="d-flex mb-3">
+        <div class="p-2 order-3 bg-info">Flex item 1</div>
+        <div class="p-2 order-2 bg-warning">Flex item 2</div>
+        <div class="p-2 order-1 bg-primary">Flex item 3</div>
+      </div>
+    </div>
+    <div class="container mt-3">
+      <h2>Auto Margins</h2>
+      <div class="d-flex mb-3 bg-secondary">
+        <div class="p-2 mr-auto bg-info">Flex item 1</div>
+        <div class="p-2 bg-warning">Flex item 2</div>
+        <div class="p-2 bg-primary">Flex item 3</div>
+      </div>
+      <div class="d-flex mb-3 bg-secondary">
+        <div class="p-2  bg-info">Flex item 1</div>
+        <div class="p-2 bg-warning">Flex item 2</div>
+        <div class="p-2 ml-auto bg-primary">Flex item 3</div>
+      </div>
+    </div>
+    <div class="container mt-3">
+        <h2>Align Self</h2>
+        <p>Align Self Start</p>
+        <div class="d-flex bg-light" style="height:150px">
+          <div class="p-2 border">Flex item 1</div>
+          <div class="p-2 border align-self-start">Flex item 2</div>
+          <div class="p-2 border">Flex item 3</div>
+        </div>
+        <br>
+        <p>Align Self end</p>
+        <div class="d-flex bg-light" style="height:150px">
+          <div class="p-2 border">Flex item 1</div>
+          <div class="p-2 border align-self-end">Flex item 2</div>
+          <div class="p-2 border">Flex item 3</div>
+        </div>
+        <br>
+        <p>Align Self Center:</p>
+        <div class="d-flex bg-light" style="height:150px">
+          <div class="p-2 border">Flex item 1</div>
+          <div class="p-2 border align-self-center">Flex item 2</div>
+          <div class="p-2 border">Flex item 3</div>
+        </div>
+        <br>
+        <p>Align Self baseline:</p>
+        <div class="d-flex bg-light" style="height:150px">
+          <div class="p-2 border">Flex item 1</div>
+          <div class="p-2 border align-self-baseline">Flex item 2</div>
+          <div class="p-2 border">Flex item 3</div>
+        </div>
+        <br>
+      </div>
+
+
+
+
+
+
+
+
+
+    <!-- jQuery  -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
